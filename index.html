@@ -16,38 +16,38 @@
             <h1>TechStore</h1>
         </div>
         <div class="box-search">
-            <input type="text" placeholder="Pesquisar Produtos">
+            <input type="text" placeholder="Pesquisar Produtos" class="input-search">
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
     </header>
 
     <div class="box-categories">
         <nav>
-            <button class="button-categorie active">
+            <button class="button-categorie active" data-categorie="all">
                 <i class="fa-solid fa-border-all"></i>
                 Todos
             </button>
-            <button class="button-categorie">
+            <button class="button-categorie" data-categorie="smartphones">
                 <i class="fa-solid fa-mobile-screen"></i>
                 Smartphone
             </button>
 
-            <button class="button-categorie">
+            <button class="button-categorie" data-categorie="laptops">
                 <i class="fa-solid fa-laptop"></i>
                 Notebooks
             </button>
 
-            <button class="button-categorie">
+            <button class="button-categorie" data-categorie="headphones">
                 <i class="fa-solid fa-headphones"></i>
                 Fones
             </button>
 
-             <button class="button-categorie">
+            <button class="button-categorie" data-categorie="accessories">
                 <i class="fa-solid fa-keyboard"></i>
                 Acessórios
             </button>
 
-            <button class="button-categorie">
+            <button class="button-categorie" data-categorie="smartwatch">
                 <i class="fa-solid fa-clock"></i>
                 Smarthwathes
             </button>
@@ -59,9 +59,9 @@
         <p>Até 50% de desconto em produtos selecionados</p>
     </div>
 
-    <div class="box-products">
-        <div class="product-card">
-            <!--Produtos-->
+    <div class="products">
+        <div class="box-products">
+            <!--Card products-->
         </div>
     </div>
 
@@ -69,4 +69,6 @@
         <p>2025 - TechStore - Todos os direitos reservados</p>
     </footer>
 </body>
+<script src="script.js"></script>
+
 </html>
